@@ -27,5 +27,5 @@ $(function(){
 			}
 		}
 	}
-	console.warn(selectedStorage);
+	
 })

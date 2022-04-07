@@ -58,11 +58,27 @@
                                                 <li class="list-group-item d-flex justify-content-between align-items-start">
                                                     <div class="ms-2 me-auto">
                                                         <div class="fw-bold">String de conexión</div>
+                                                        <ul>
+                                                            <li>'postgresql://dbuser:dbpassword@dbserver:dbport/database'</li>
+                                                        </ul>
                                                     </div>
                                                 </li>
                                                 <li class="list-group-item d-flex justify-content-between align-items-start">
                                                     <div class="ms-2 me-auto">
                                                         <div class="fw-bold">Conexión por objeto de configuración</div>
+                                                        <ul>
+                                                            <li>
+<pre>
+    const config = {
+        user: 'nombreUser',
+        host: 'servidor',
+        database: 'nombreBD',
+        password: 'contraseña',
+        port: 5432,
+    }
+</pre>
+                                                            </li>
+                                                        </ul>
                                                     </div>
                                                 </li>
                                                 <li class="list-group-item d-flex justify-content-between align-items-start">
